@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body onload="script">
     <div align="center">
         <h1>JUST ALERT SYSTEM</h1>
         <button onclick="mainAlert()">start</button>
@@ -17,7 +17,16 @@
     <!-- Script 파트 -->
     <script>
         function mainAlert() {
-            alert("master");
+            func1();
+            func2();
+        }
+        
+        function func1() {
+            alert("1번 알람");
+        }
+
+        function func2() {
+            alert("2번 알람");
         }
     </script>
 </body>
